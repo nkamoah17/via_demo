@@ -1,0 +1,16 @@
+//House_Robber
+
+class Solution:
+    def rob(self, nums: List[int]) -> int:
+        total_money = 0
+        i = 0
+        while i <= len(nums):
+            if i+1 > len(nums):
+                return total_money 
+            else:
+                total_money += nums[i]
+                i += 2
+        return total_money
+                
+                
+        
