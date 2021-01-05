@@ -1,5 +1,5 @@
 //House_Robber
-
+// This is not optimal, optimal uses DP
 class Solution:
     def rob(self, nums: List[int]) -> int:
         total_money = 0
